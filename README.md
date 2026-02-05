@@ -1,14 +1,17 @@
-# paye-calculator-ke
-A simple frontend PAYE (Pay As You Earn) tax calculator for Kenya tax laws, built using HTML, CSS, and JavaScript.
-It helps users estimate statutory deductions and net salary based on current Kenyan tax bands.
+PAYE Calculator (Kenya)
 
- Features
+A lightweight frontend PAYE (Pay As You Earn) tax calculator built according to Kenyan tax laws.
+The app helps users estimate statutory deductions and net salary based on current Kenyan tax bands.
+
+Built entirely with HTML, CSS, and Vanilla JavaScript — no backend, no frameworks.
+
+Features
 
 -Gross salary input
 
 -PAYE calculation based on Kenyan tax brackets
 
-Statutory deductions support:
+Statutory deductions:
 
 -PAYE
 
@@ -18,16 +21,25 @@ Statutory deductions support:
 
 -Net salary calculation
 
--Clean, responsive UI
+-Clean and responsive UI
 
--No backend — runs entirely in the browser
+-Runs entirely in the browser (no backend)
 
- Tech Stack
+Tech Stack
 
--HTML – structure
+-HTML — structure
 
--CSS – styling
+-CSS — styling
 
--JavaScript (Vanilla) – logic & calculations
+-JavaScript (Vanilla) — logic and calculations
 
 -No frameworks. No dependencies. Just the basics.
+
+Live Demo
+
+ https://paye-calculator-ke.vercel.app/
+
+Notes
+
+This calculator is intended for estimation purposes only.
+Actual deductions may vary depending on updated tax regulations and individual circumstances.
