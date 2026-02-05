@@ -2,32 +2,32 @@
 A simple frontend PAYE (Pay As You Earn) tax calculator for Kenya tax laws, built using HTML, CSS, and JavaScript.
 It helps users estimate statutory deductions and net salary based on current Kenyan tax bands.
 
-✨ Features
+ Features
 
-Gross salary input
+-Gross salary input
 
-PAYE calculation based on Kenyan tax brackets
+-PAYE calculation based on Kenyan tax brackets
 
 Statutory deductions support:
 
-PAYE
+-PAYE
 
-NHIF
+-NHIF
 
-NSSF
+-NSSF
 
-Net salary calculation
+-Net salary calculation
 
-Clean, responsive UI
+-Clean, responsive UI
 
-No backend — runs entirely in the browser
+-No backend — runs entirely in the browser
 
-🛠️ Tech Stack
+ Tech Stack
 
-HTML – structure
+-HTML – structure
 
-CSS – styling
+-CSS – styling
 
-JavaScript (Vanilla) – logic & calculations
+-JavaScript (Vanilla) – logic & calculations
 
-No frameworks. No dependencies. Just the basics.
+-No frameworks. No dependencies. Just the basics.
