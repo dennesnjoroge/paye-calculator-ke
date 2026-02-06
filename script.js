@@ -97,6 +97,7 @@ function calculatePayslip(grossSalary, insuranceRelief = 0) {
 
     return {
         grossSalary,
+        grossPAYE,
         nssf,
         shif,
         housingLevy,
@@ -123,9 +124,17 @@ function renderPayslip(data) {
     document.getElementById('shifOut').textContent = formatKES(data.shif);
     document.getElementById('housingOut').textContent = formatKES(data.housingLevy);
     document.getElementById('taxableOut').textContent = formatKES(data.taxableIncome);
+    document.getElementById('incomeTaxOut').textContent = formatKES(data.grossPAYE);
+    document.getElementById('personalReliefOut').textContent = '-' + formatKES(data.PERSONAL_RELIEF);
     document.getElementById('payeOut').textContent = formatKES(data.netPAYE);
     document.getElementById('deductionsOut').textContent = formatKES(data.totalDeductions);
     document.getElementById('netOut').textContent = formatKES(data.netSalary);
 
     document.getElementById('results').style.display = 'block';
+}
+
+function renderMonthYear() {
+    const now = new Date();
+    const monthYear = now.toLocaleString('en-KE', { month: 'long', year: 'numeric' });
+    document.getElementById('monthYear').textContent = monthYear;
 }
